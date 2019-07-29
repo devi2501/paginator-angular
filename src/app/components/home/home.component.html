@@ -1,0 +1,176 @@
+
+<div class="panel panel-default">
+        <div class="panel-body">
+<form [formGroup] = "userForm" (ngSubmit) = "onClickSubmit()" >
+       <table>
+           <tbody>
+            <tr>
+                <td>
+                        <div class="form-group">
+                                <input type="text" class="form-control" name="contactID" formControlName="contactNo" placeholder="Contact ID">
+                            </div>
+                </td>
+        
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Request ID" name="RequestID"formControlName="requestID">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Owner Name" name= "ownerName" formControlName="ownerName">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Owner SSN" name="ownerSSN"formControlName="ownerSSN">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Annuitant Name" name="annitantName"formControlName="annitantName">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Annuitant SSN" name="annitantSSN"formControlName="annitantSSN">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Producer Name" name="producerName" formControlName="producerName">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Producer SSN" name="producerSSN" formControlName="producerSSN">
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <input  type="text" class="form-control"  placeholder="Producer Firm" name="producerFirm" formControlName="producerFirm">
+                            </div>
+                </td>
+                <!-- <td>
+                        <div class="">
+                                <div class="input-group">
+                                  <input class="form-control" placeholder="yyyy-mm-dd"
+                                         name="dp"  ngbDatepicker #d="ngbDatepicker">
+                                  <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+                                  </div>
+                                </div>
+                              </div>    
+                </td>
+                <td>
+                        <div class="form-group">
+                                <div class="btn-group" role="group">
+                                        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Status
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                          <a class="dropdown-item" href="#">1</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">2</a>
+                                        </div>
+                                </div>
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <div class="btn-group">
+                                        <button type="button" class="btn btn-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Price
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">1</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">2</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">3</a>
+                                        </div>
+                                      </div>
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <div class="btn-group">
+                                        <button type="button" class="btn btn-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Cases
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">1</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">2</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">3</a>
+                                          <div class="dropdown-divider"></div>
+                                        </div>
+                                      </div>
+                            </div>
+                </td>
+                <td>
+                        <div class="form-group">
+                                <div class="btn-group">
+                                        <button type="button" class="btn btn-secondary  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Watch
+                                        </button>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="#">1</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">2</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="#">3</a>
+                                          
+                                        </div>
+                                      </div>
+
+                            </div>
+                </td> -->
+                
+                                </tr>
+                                
+                                <!-- <div  align="center"><input type ="submit" class="btn btn-info" value = "submit"></div> -->
+                                       
+                            </tbody>
+                                </table>
+
+      </form>
+      </div>
+      </div>
+      <div class="panel panel-default">
+                <div class="panel-body">
+      <div class="row">
+                <input type="text"  [(ngModel)]="searchText" placeholder="Search Text">
+            </div>
+
+              <table class="table">
+                      <thead>
+                              <th>#</th>
+                              <th>Contact No</th>
+                              <th>RequestID</th>
+                              <th>Owner Name</th>
+                              <th>Owner SSN</th>
+                              <th>Annuitant Name</th>
+                              <th>Annuitant SSN</th>
+                              <th>Producer Name</th>
+                              <th>Producer SSN</th>
+                              <th>ProducerFirm</th>
+                        </thead>
+                        <tbody>
+                                <tr *ngFor="let user of suitability | filter:searchText | paginate: { itemsPerPage: 5, currentPage: p }; let i=index">
+                                        <td>{{i}}</td>
+                                        <td>{{user.contactNo}}</td>
+                                        <td>{{user.requestID}}</td>
+                                        <td>{{user.ownerName}}</td>
+                                        <td>{{user.ownerSSN}}</td>
+                                        <td>{{user.annuitantName}}</td>
+                                        <td>{{user.annuitantSSN}}</td>
+                                        <td>{{user.producerName}}</td>
+                                        <td>{{user.producerSSN}}</td>
+                                        <td>{{user.producerFirm}}</td>
+                        </tbody>
+                        <pagination-controls (pageChange)='p=$event'></pagination-controls>
+                        </table>
+               </div>
+               </div>

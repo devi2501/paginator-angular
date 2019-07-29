@@ -1,0 +1,237 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users":[
+    {
+        "contactNo": "1111",
+        "requestID": "1111",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"fgf",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+        "contactNo": "2222",
+        "requestID": "1111",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "88909",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "7777",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "producerFirm":"4545",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "8888",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "9999",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "4444",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "Date":"2019/7/11",
+        "status":"success"
+    },
+    {
+
+        "contactNo": "12345678",
+        "requestID": "115667",
+        "ownerName": "dravid",
+        "ownerSSN" :"333-22-1111",
+        "annuitantName":"Devi",
+        "annuitantSSN":"557-89-6778",
+        "producerName":"ragul",
+        "producerSSN":"777-78-8766",
+        "Date":"2019/7/11",
+        "status":"success"
+    }
+    
+
+]
+}
